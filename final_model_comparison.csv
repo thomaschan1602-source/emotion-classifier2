@@ -1,0 +1,7 @@
+model,accuracy,macro_f1,rank
+BoW + LR (balanced),0.891,0.8472,1
+BoW + Logistic Regression,0.8895,0.8297,2
+TF-IDF + Linear SVC,0.879,0.8152,3
+TF-IDF word+char n-gram + LR,0.861,0.7947,4
+TF-IDF + Logistic Regression,0.822,0.7065,5
+TF-IDF + Multinomial NB,0.749,0.5995,6
